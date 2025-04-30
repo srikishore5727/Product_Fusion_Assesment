@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-nav {
+  background-color: #eee;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.main-nav a {
+  margin: 0 15px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+.main-nav a:hover {
+  text-decoration: underline;
+}

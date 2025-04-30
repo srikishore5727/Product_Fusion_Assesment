@@ -1,0 +1,127 @@
+/* --- Add these styles to your existing src/Dashboard.css --- */
+
+/* General Dashboard Styling Enhancements */
+
+.dashboard-container h1 {
+    text-align: center; /* Center the main title */
+    color: #333; /* Darker heading color */
+    margin-bottom: 25px;
+    border-bottom: 2px solid #eee; /* Subtle line under main title */
+    padding-bottom: 10px;
+  }
+  
+  .dashboard-container h2 {
+    color: #555; /* Slightly lighter color for section titles */
+    margin-top: 30px; /* Add space above section titles */
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0; /* Very light line under section titles */
+    padding-bottom: 5px;
+  }
+  
+  /* Refine Filters Area */
+  .filters-container {
+    background-color: #f8f9fa; /* Light background for the filter area */
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e9ecef; /* Light border */
+    margin-bottom: 30px; /* More space below filters */
+    /* Existing flex rules handle layout */
+  }
+  
+  .filters-container > div { /* Style each filter group (label + input) */
+    margin-bottom: 5px; /* Add slight space if they wrap */
+  }
+  
+  .filters-container label {
+    margin-right: 5px; /* Space between label and input */
+    font-weight: 500; /* Slightly bolder label */
+    font-size: 0.9em;
+  }
+  
+  /* Enhance Chart Container */
+  .chart-container {
+    /* Existing rules define height, border etc */
+    background-color: #ffffff; /* Ensure white background */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    padding: 20px; /* Add more internal padding */
+  }
+  
+  /* Enhance Summary Cards */
+  .summary-card {
+    /* Existing rules define background, border etc */
+    text-align: center; /* Center text inside cards */
+    padding: 20px; /* Increase padding */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07); /* Slightly more visible shadow */
+    transition: transform 0.2s ease-in-out; /* Add hover effect */
+  }
+  
+  .summary-card:hover {
+    transform: translateY(-3px); /* Lift card slightly on hover */
+  }
+  
+  .summary-card h3 {
+    font-size: 0.9em; /* Smaller heading */
+    color: #6c757d; /* Gray color for heading */
+    margin-bottom: 8px;
+  }
+  
+  .summary-card p {
+    font-size: 1.8em; /* Larger number */
+    color: #007bff; /* Blue color for the value */
+  }
+  
+  /* Enhance Data Table Appearance */
+  .data-table {
+    /* Existing rules handle width, border-collapse */
+    margin-top: 10px; /* Space above table */
+    border: 1px solid #dee2e6; /* Add an outer border to the table */
+  }
+  
+  .data-table th {
+    background-color: #e9ecef; /* Lighter gray header background */
+    color: #495057; /* Darker text for header */
+    padding: 12px 10px; /* More padding in header */
+    text-align: left;
+    font-weight: 600; /* Bolder header text */
+    border-bottom: 2px solid #dee2e6; /* Stronger line below header */
+  }
+  
+  .data-table td {
+    padding: 10px 10px; /* Standard cell padding */
+    border-bottom: 1px solid #f1f1f1; /* Lighter line between rows */
+    font-size: 0.9em;
+  }
+  
+  /* Zebra striping for table rows (optional but nice) */
+  .data-table tbody tr:nth-of-type(odd) {
+    background-color: #fdfdfd; /* Very light gray for odd rows */
+  }
+  
+  .data-table tbody tr:hover {
+    background-color: #f0f8ff; /* Light blue hover for rows */
+  }
+  
+  
+  /* Enhance Loading/Error Messages */
+  .loading {
+    /* Existing rules may center it */
+    font-size: 1.1em;
+    color: #6c757d;
+    padding: 30px;
+  }
+  
+  .error {
+    /* Existing rules give color/background */
+    font-weight: 500; /* Slightly bolder error text */
+    text-align: center;
+    padding: 20px; /* More padding */
+  }
+  
+  /* Add a general paragraph style for messages like 'No data available' */
+  .dashboard-container > p {
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 20px;
+  }

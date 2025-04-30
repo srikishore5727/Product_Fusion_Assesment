@@ -1,0 +1,113 @@
+.product-page {
+    padding: 15px;
+  }
+  
+  /* Style the filters area */
+  .filters {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the product grid */
+  .product-grid {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px; 
+    margin-bottom: 20px;
+  }
+  
+  /* Style individual product cards */
+  .product-card {
+    border: 1px solid lightgray; 
+    padding: 10px;
+    width: 200px; 
+    text-align: center;
+    background-color: white;
+  }
+  
+  .product-card img {
+    max-width: 100%; 
+    height: 150px; 
+    object-fit: contain;
+    margin-bottom: 5px;
+  }
+  
+  .product-card h3 {
+    font-size: 1em; 
+    margin: 5px 0;
+    height: 3em; 
+    overflow: hidden; 
+  }
+  
+  .product-card p {
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+  }
+  
+  .product-card button {
+    padding: 5px 10px; 
+    cursor: pointer;
+  }
+  
+  /* Style the shopping cart area */
+  .cart {
+    padding: 15px;
+    border: 1px solid lightblue; 
+    background-color: #f0f8ff;
+  }
+  
+  .cart h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Style individual items in the cart */
+  .cart-item {
+    display: flex; /* Line up elements horizontally */
+    justify-content: space-between; /* Space out text and button */
+    align-items: center; /* Keep items vertically centered */
+    padding: 5px 0;
+    border-bottom: 1px dotted lightgray; /* Dotted line between items */
+    font-size: 0.9em;
+  }
+  
+  /* Don't put a line under the last item */
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item button {
+    padding: 2px 5px; /* Smaller remove button */
+    font-size: 0.8em;
+    cursor: pointer;
+    margin-left: 10px; /* Space before button */
+  }
+  
+  /* Style the total display */
+  .cart-total {
+    margin-top: 15px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  /* Basic error message */
+  .error {
+    color: red;
+    background-color: #ffeeee;
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Basic loading message */
+  .loading { /* If you wrap loading text in a div with this class */
+    text-align: center;
+    padding: 20px;
+    color: gray;
+  }
